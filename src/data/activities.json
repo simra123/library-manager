@@ -1,0 +1,7 @@
+[
+  { "id": 1, "action": "Book Issued", "detail": "Clean Code issued to Ali Khan", "time": "2 hours ago" },
+  { "id": 2, "action": "Book Returned", "detail": "Database System Concepts returned by Ali Khan", "time": "5 hours ago" },
+  { "id": 3, "action": "New Student", "detail": "Ayesha Malik registered", "time": "1 day ago" },
+  { "id": 4, "action": "Book Added", "detail": "Deep Learning added to catalog", "time": "2 days ago" },
+  { "id": 5, "action": "Book Issued", "detail": "Sapiens issued to Ayesha Malik", "time": "3 days ago" }
+]

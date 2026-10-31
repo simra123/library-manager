@@ -1,0 +1,7 @@
+[
+  { "id": "I001", "bookId": "B001", "bookTitle": "Clean Code", "studentId": "S001", "studentName": "Ali Khan", "issueDate": "2026-06-15", "dueDate": "2026-07-15", "returnDate": null, "status": "issued" },
+  { "id": "I002", "bookId": "B003", "bookTitle": "Introduction to Algorithms", "studentId": "S002", "studentName": "Sara Ahmed", "issueDate": "2026-06-20", "dueDate": "2026-07-20", "returnDate": null, "status": "issued" },
+  { "id": "I003", "bookId": "B004", "bookTitle": "Database System Concepts", "studentId": "S001", "studentName": "Ali Khan", "issueDate": "2026-05-10", "dueDate": "2026-06-10", "returnDate": "2026-06-08", "status": "returned" },
+  { "id": "I004", "bookId": "B005", "bookTitle": "Operating System Concepts", "studentId": "S003", "studentName": "Bilal Raza", "issueDate": "2026-06-25", "dueDate": "2026-07-25", "returnDate": null, "status": "issued" },
+  { "id": "I005", "bookId": "B007", "bookTitle": "Sapiens", "studentId": "S004", "studentName": "Ayesha Malik", "issueDate": "2026-06-28", "dueDate": "2026-07-28", "returnDate": null, "status": "issued" }
+]

@@ -1,0 +1,10 @@
+[
+  { "id": "B001", "title": "Clean Code", "author": "Robert C. Martin", "category": "Programming", "quantity": 5, "available": 3 },
+  { "id": "B002", "title": "The Pragmatic Programmer", "author": "Andy Hunt", "category": "Programming", "quantity": 4, "available": 4 },
+  { "id": "B003", "title": "Introduction to Algorithms", "author": "Thomas H. Cormen", "category": "Computer Science", "quantity": 6, "available": 2 },
+  { "id": "B004", "title": "Database System Concepts", "author": "Abraham Silberschatz", "category": "Database", "quantity": 3, "available": 1 },
+  { "id": "B005", "title": "Operating System Concepts", "author": "Silberschatz, Galvin", "category": "Computer Science", "quantity": 5, "available": 0 },
+  { "id": "B006", "title": "Atomic Habits", "author": "James Clear", "category": "Self-Help", "quantity": 8, "available": 6 },
+  { "id": "B007", "title": "Sapiens", "author": "Yuval Noah Harari", "category": "History", "quantity": 4, "available": 2 },
+  { "id": "B008", "title": "Deep Learning", "author": "Ian Goodfellow", "category": "AI/ML", "quantity": 3, "available": 3 }
+]

@@ -1,0 +1,8 @@
+[
+  { "id": "S001", "name": "Ali Khan", "email": "ali@uni.edu", "department": "Computer Science" },
+  { "id": "S002", "name": "Sara Ahmed", "email": "sara@uni.edu", "department": "Software Engineering" },
+  { "id": "S003", "name": "Bilal Raza", "email": "bilal@uni.edu", "department": "Information Technology" },
+  { "id": "S004", "name": "Ayesha Malik", "email": "ayesha@uni.edu", "department": "Data Science" },
+  { "id": "S005", "name": "Hamza Sheikh", "email": "hamza@uni.edu", "department": "Computer Science" }
+]
+

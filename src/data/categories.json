@@ -1,0 +1,8 @@
+[
+  { "id": "C1", "name": "Programming", "description": "Software development and coding books" },
+  { "id": "C2", "name": "Computer Science", "description": "Theoretical CS and algorithms" },
+  { "id": "C3", "name": "Database", "description": "DBMS and data modeling" },
+  { "id": "C4", "name": "AI/ML", "description": "Artificial intelligence and machine learning" },
+  { "id": "C5", "name": "Self-Help", "description": "Personal development" },
+  { "id": "C6", "name": "History", "description": "Historical works" }
+]
