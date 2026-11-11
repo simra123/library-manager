@@ -1,20 +1,27 @@
-import { useLibraryStore } from "@/store/libraryStore";
 
-export const getBooks = async () => Promise.resolve(useLibraryStore.getState().books);
-export const getBookById = async (id) =>
-  Promise.resolve(useLibraryStore.getState().books.find((b) => b.id === id));
+import api from "@/services/api";
+
+export const getBooks = async () => {
+  const response = await api.get("/books");
+  return response.data.books;
+};
+
+export const getBookById = async (id) => {
+  const response = await api.get(`/books/${id}`);
+  return response.data.book;
+};
 
 export const createBook = async (payload) => {
-  useLibraryStore.getState().addBook(payload);
-  return Promise.resolve(payload);
+  const response = await api.post("/books", payload);
+  return response.data.book;
 };
 
 export const updateBook = async (id, payload) => {
-  useLibraryStore.getState().updateBook(id, payload);
-  return Promise.resolve({ id, ...payload });
+  const response = await api.put(`/books/${id}`, payload);
+  return response.data.book;
 };
 
 export const deleteBook = async (id) => {
-  useLibraryStore.getState().deleteBook(id);
-  return Promise.resolve({ id });
+  const response = await api.delete(`/books/${id}`);
+  return response.data;
 };
